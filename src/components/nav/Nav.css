@@ -11,11 +11,7 @@
   background-color: lightgray;
   padding: 30px;
 }
-.footer {
-  height: 150px;
-  background-color: black;
-  color: white;
-}
+
 .flexContainer {
   display: flex;
   justify-content: center;
@@ -37,7 +33,5 @@
   color: white;
   text-decoration: none;
   margin-right: 50px;
-}
-.a {
-  font-size: 10%;
+  font-size: 60%;
 }
