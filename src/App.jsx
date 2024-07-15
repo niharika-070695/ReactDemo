@@ -13,11 +13,13 @@ import Womens from "./components/products/categories/women'sclothing/Womens";
 import PageNotFound from "./components/pagenotfound/PageNotFound";
 import AllProducts from "./components/allproducts/AllProducts";
 import Usernames from "./components/user-names/Usernames";
+import A from "./components/parent-child/A";
 function App() {
   return (
     <div className="app">
       <h2>App component</h2>
       <Navbar />
+      <A />
       <Routes>
         <Route path={"/"} element={<Home />}></Route>
         <Route path={"/products"} element={<Products />}>
