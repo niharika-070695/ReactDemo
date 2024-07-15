@@ -1,0 +1,5 @@
+Get All Products
+--------------------
+Method type: "GET"
+https://fakestoreapi.com/products
+

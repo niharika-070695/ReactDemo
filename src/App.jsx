@@ -10,6 +10,8 @@ import Electronics from "./components/products/categories/electronics/Electronic
 import Jewellery from "./components/products/categories/jewellery/Jewellery";
 import Mens from "./components/products/categories/men'sclothing/Mens";
 import Womens from "./components/products/categories/women'sclothing/Womens";
+import PageNotFound from "./components/pagenotfound/PageNotFound";
+import AllProducts from "./components/allproducts/AllProducts";
 function App() {
   return (
     <div className="app">
@@ -25,6 +27,8 @@ function App() {
         </Route>
         <Route path={"/imagecomp"} element={<ImageComp />}></Route>
         <Route path={"/counter"} element={<Counter />}></Route>
+        <Route path={"/allproducts"} element={<AllProducts />}></Route>
+        <Route path={"*"} element={<PageNotFound />}></Route>
       </Routes>
     </div>
   );
