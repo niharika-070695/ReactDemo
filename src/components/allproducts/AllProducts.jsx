@@ -36,6 +36,7 @@ function AllProducts() {
               image={element.image}
               title={element.title}
               price={element.price}
+              rating={element.rating.rate}
             />
           );
         })}

@@ -12,6 +12,7 @@ import Mens from "./components/products/categories/men'sclothing/Mens";
 import Womens from "./components/products/categories/women'sclothing/Womens";
 import PageNotFound from "./components/pagenotfound/PageNotFound";
 import AllProducts from "./components/allproducts/AllProducts";
+import Usernames from "./components/user-names/Usernames";
 function App() {
   return (
     <div className="app">
@@ -28,6 +29,7 @@ function App() {
         <Route path={"/imagecomp"} element={<ImageComp />}></Route>
         <Route path={"/counter"} element={<Counter />}></Route>
         <Route path={"/allproducts"} element={<AllProducts />}></Route>
+        <Route path={"/usernames"} element={<Usernames />}></Route>
         <Route path={"*"} element={<PageNotFound />}></Route>
       </Routes>
     </div>
