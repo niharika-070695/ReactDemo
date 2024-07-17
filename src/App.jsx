@@ -14,12 +14,15 @@ import PageNotFound from "./components/pagenotfound/PageNotFound";
 import AllProducts from "./components/allproducts/AllProducts";
 import Usernames from "./components/user-names/Usernames";
 import A from "./components/parent-child/A";
+import Ac from "./components/context-api/Ac";
+
 function App() {
   return (
     <div className="app">
       <h2>App component</h2>
       <Navbar />
       <Routes>
+        <Route path={"/context-api"} element={<Ac />}></Route>
         <Route path={"/"} element={<A />}></Route>
         <Route path={"/home"} element={<Home />}></Route>
         <Route path={"/products"} element={<Products />}>

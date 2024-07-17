@@ -1,17 +1,19 @@
 import React from "react";
+import D from "./D";
 const cStyles = {
-  width: "200px",
+  width: "300px",
   boxShadow: "0 0 10px blue",
   textAlign: "center",
-  padding: "50px",
+  padding: "30px",
   margin: "20px auto",
-  height: "100px",
+  height: "470px",
 };
 function C(props) {
+  console.log("Cto D", props.data);
   return (
     <div style={cStyles}>
       <h4>C component</h4>
-      <h5>Data:{props.data}</h5>
+      <D data={props.data} />
     </div>
   );
 }

@@ -14,6 +14,7 @@ function nav() {
         <Link to="/imagecomp">ImageComp</Link>
         <Link to="/usernames">UserNames</Link>
         <Link to="/allproducts">AllProducts</Link>
+        <Link to="/context-api">ContextAPI</Link>
       </div>
     </div>
   );
