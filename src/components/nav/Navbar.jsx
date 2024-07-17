@@ -8,7 +8,7 @@ function nav() {
         <h2>React Routing</h2>
       </div>
       <div class="rightPanel flexContainer">
-        <Link to="/">Home</Link>
+        <Link to="/home">Home</Link>
         <Link to="/products">Products</Link>
         <Link to="/counter">Counter</Link>
         <Link to="/imagecomp">ImageComp</Link>

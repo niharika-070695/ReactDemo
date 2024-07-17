@@ -19,9 +19,9 @@ function App() {
     <div className="app">
       <h2>App component</h2>
       <Navbar />
-      <A />
       <Routes>
-        <Route path={"/"} element={<Home />}></Route>
+        <Route path={"/"} element={<A />}></Route>
+        <Route path={"/home"} element={<Home />}></Route>
         <Route path={"/products"} element={<Products />}>
           <Route path={"electronics"} element={<Electronics />}></Route>
           <Route path={"jewellery"} element={<Jewellery />}></Route>

@@ -7,7 +7,6 @@ const aStyles = {
   textAlign: "center",
   margin: "100px auto",
   padding: "50px",
-  height: "500px",
 };
 
 function A() {
