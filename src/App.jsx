@@ -15,12 +15,15 @@ import AllProducts from "./components/allproducts/AllProducts";
 import Usernames from "./components/user-names/Usernames";
 import A from "./components/parent-child/A";
 import Ac from "./components/context-api/Ac";
-
+import HomeContext from "./components/context-api/HomeContext";
+import Name from "./components/child-parent/Name";
 function App() {
   return (
     <div className="app">
       <h2>App component</h2>
       <Navbar />
+      <Name />
+      <HomeContext />
       <Routes>
         <Route path={"/context-api"} element={<Ac />}></Route>
         <Route path={"/"} element={<A />}></Route>
